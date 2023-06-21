@@ -49,7 +49,7 @@ export default function Food() {
         <div className='flex flex-col lg:flex-row justify-between'>
             {/* {Filter Type} */}
             <div>
-                <p className='font-bold text-gray-700'>Фильтр по хрючеву</p>
+                <p className='font-bold text-gray-700'>Фильтр по еде</p>
                 <div className='flex justify-between flex-wrap'>
                 <button onClick={setData}className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Все</button>
                 <button onClick={filterBurger} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Бургеры</button>
