@@ -27,7 +27,7 @@ export default function Navbar() {
 
     <div className='hidden lg:flex items-center text-[1px] '>
         <p className='bg-[#c4302b] p-1 px-2 py-2 text-white rounded-full cursor-pointer m-1 '><AiFillYoutube size={20}/></p>
-        <p className='bg-[#6e5494] p-1 px-2 py-2 text-white rounded-full  cursor-pointer m-1'><AiFillGithub size={20} /> </p>
+        <p className='bg-[#6e5494] p-1 px-2 py-2 text-white rounded-full  cursor-pointer m-1'><AiFillGithub size={20} /></p>
         <p className='bg-[#1DA1F2] p-1 px-2 py-2 text-white rounded-full  cursor-pointer m-1'><AiOutlineTwitter size={20} /> </p>
     </div>
 
@@ -35,13 +35,13 @@ export default function Navbar() {
     <div 
         className='bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]'>
         <AiOutlineSearch size={25} />
-      <input className='bg-transparent p-2 focus:outline-none w-full' type="text" placeholder='Искать пожрать...' />
+      <input className='bg-transparent p-2 focus:outline-none w-full' type="text" placeholder='Search...' />
     </div>
 
-        {/* {Корзина} */}
+        {/* {Корзина, Cart} */}
         <button 
-            className='bg-black text-white hidden md:flex items-center py-2 rounded-full'>
-            <BsFillCartFill size={20} className='mr-2'/>Корзина
+            className='bg-black text-white hidden md:flex items-center py-2 rounded-full px-10'>
+            <BsFillCartFill size={20} className='mr-2'/>Cart
         </button>
     
 
@@ -61,13 +61,13 @@ export default function Navbar() {
         </h2>
         <nav>
         <ul className='flex flex-col p-4 text-gray-800'>
-            <li className='text-xl py-4 flex cursor-pointer'><TbTruckDelivery size={25} className='mr-2'  />Заказы</li>
-            <li className='text-xl py-4 flex cursor-pointer'><BsFillSaveFill  size={25} className='mr-2' />Лучшее</li>
-            <li className='text-xl py-4 flex cursor-pointer'><AiFillTag size={25} className='mr-2'/>Акции</li>
-            <li className='text-xl py-4 flex cursor-pointer'><FaWallet size={25} className='mr-2' />Кошелек</li>
-            <li className='text-xl py-4 flex cursor-pointer'><MdFavorite size={25} className='mr-2' />Избранное</li>
-            <li className='text-xl py-4 flex cursor-pointer'><FaUserFriends size={25} className='mr-2' />Пригласить друзей</li>
-            <li className='text-xl py-4 flex cursor-pointer'><MdHelp size={25} className='mr-2' />Помощь</li>
+            <li className='text-xl py-4 flex cursor-pointer'><TbTruckDelivery size={25} className='mr-2'  />Orders</li>
+            <li className='text-xl py-4 flex cursor-pointer'><BsFillSaveFill  size={25} className='mr-2' />Best</li>
+            <li className='text-xl py-4 flex cursor-pointer'><AiFillTag size={25} className='mr-2'/>Discounts</li>
+            <li className='text-xl py-4 flex cursor-pointer'><FaWallet size={25} className='mr-2' />Wallet</li>
+            <li className='text-xl py-4 flex cursor-pointer'><MdFavorite size={25} className='mr-2' />Favorite</li>
+            <li className='text-xl py-4 flex cursor-pointer'><FaUserFriends size={25} className='mr-2' />Invite</li>
+            <li className='text-xl py-4 flex cursor-pointer'><MdHelp size={25} className='mr-2' />Help</li>
         </ul>
         </nav>
         </div>       

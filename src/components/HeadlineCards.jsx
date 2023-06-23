@@ -9,9 +9,9 @@ export default function () {
            
             {/* {Overlay} */}
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-                <p className='font-bold text-2xl px-2 pt-4'>В чем секрет мягкого, нежного,</p>
-                <p className='px-2'>сочного теста из моей <span className='font-bold'>ПРЯМОЙ</span> кишки?</p>
-                <button className='border-white bg-white text-black mx-4 absolute bottom-4 '>Узнать сейчас!</button>
+                <p className='font-bold text-2xl px-2 pt-4'>You're hunger?</p>
+                <p className='px-2'>Want some pizza? Maybe burgers?</p>
+                <button className='border-white bg-white text-black mx-4 absolute bottom-4 '>Order now!</button>
             </div>
             <img 
             className='max-h-[160px] md:max-h[200px] w-full object-cover rounded-xl' 
@@ -24,9 +24,9 @@ export default function () {
             
             {/* {Overlay} */}
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-                <p className='font-bold text-2xl px-2 pt-4'>Это же вчерашняя лазанья!</p>
-                <p className='px-2'>Сочная, ароматная начинка моей жопы - вам на ебальничек!</p>
-                <button className='border-white bg-white text-black mx-4 absolute bottom-4 '>Да!</button>
+                <p className='font-bold text-2xl px-2 pt-4'>We have rich menu.</p>
+                <p className='px-2'>Why you hitherto not ordered?</p>
+                <button className='border-white bg-white text-black mx-4 absolute bottom-4 '>I don't have a money</button>
             </div>
             <img 
             className='max-h-[160px] md:max-h[200px] w-full object-cover rounded-xl' 
@@ -38,9 +38,9 @@ export default function () {
         <div className='rounded-xl relative'>
             {/* {Overlay} */}
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-                <p className='font-bold text-2xl px-2 pt-4'>В классическом итальянском рецепте есть пункт -</p>
-                <p className='px-2'>накакать на ебасос бабулички!</p>
-                <button className='border-white bg-white text-black mx-4 absolute bottom-4 '>Заказываю!</button>
+                <p className='font-bold text-2xl px-2 pt-4'>In an italian recipe the paragraph -</p>
+                <p className='px-2'>Buy something in our <span className='font-bold'>Best pizza</span></p>
+                <button className='border-white bg-white text-black mx-4 absolute bottom-4 '>Order</button>
             </div>
             <img 
             className='max-h-[160px] md:max-h[200px] w-full object-cover rounded-xl' 

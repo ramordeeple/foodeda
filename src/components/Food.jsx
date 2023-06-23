@@ -8,7 +8,7 @@ export default function Food() {
     const [foods, setFoods] = useState(data)
 
 
-    // Clear filter/ Фильтр, чтобы вывести все
+    // Clear filter / Фильтр, чтобы вывести все
     const setData = () => setFoods(data)
 
 
@@ -43,26 +43,26 @@ export default function Food() {
 
   return (
     <div className='max-w-[1640px] m-auto px-4 py-12'>
-        <h1 className='text-orange-600 font-bold text-4xl text-center'>Лучшее меню недели</h1>
+        <h1 className='text-orange-600 font-bold text-4xl text-center'>Best menu of this week</h1>
 
         {/* {Filter Row} */}
         <div className='flex flex-col lg:flex-row justify-between'>
             {/* {Filter Type} */}
             <div>
-                <p className='font-bold text-gray-700'>Фильтр по еде</p>
+                <p className='font-bold text-gray-700'>Food Filter</p>
                 <div className='flex justify-between flex-wrap'>
-                <button onClick={setData}className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Все</button>
-                <button onClick={filterBurger} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Бургеры</button>
-                <button onClick={filterPizza} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Пицца</button>
-                <button onClick={filterSalad} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Салаты</button>
-                <button onClick={filterChicken} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Курочка</button>
+                <button onClick={setData}className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>All</button>
+                <button onClick={filterBurger} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Burgers</button>
+                <button onClick={filterPizza} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Pizza</button>
+                <button onClick={filterSalad} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Salad</button>
+                <button onClick={filterChicken} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Chicken</button>
 
                 </div>
             </div>
 
             {/* {Filter Price} */}
             <div>
-                <p className='font-bold text-gray-700'>Фильтр по ценам</p>
+                <p className='font-bold text-gray-700'>Price filter</p>
                 <div className='flex justify-between max-w-[390px] w-full'>
                     <button onClick={filterPriceOneDollar} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>$</button>
                     <button onClick={filterPriceTwoDollars} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>$$</button>
