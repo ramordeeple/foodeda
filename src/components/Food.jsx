@@ -8,11 +8,11 @@ export default function Food() {
     const [foods, setFoods] = useState(data)
 
 
-    // Clear filter / Фильтр, чтобы вывести все
+    // Clear filter 
     const setData = () => setFoods(data)
 
 
-    //Filter foods/Фильтр бургеров/пицц/так далее
+    //Filter foods
     const filterType = (category) => {
         setFoods(data.filter ((item) => {
             return item.category === category
@@ -20,7 +20,7 @@ export default function Food() {
     }
 
     
-    //Filter price / Фильтр по цене
+    //Filter price 
     const filterPrice = (price) => {
         setFoods(data.filter ((item) => {
             return item.price === price
@@ -28,13 +28,13 @@ export default function Food() {
     }
 
       
-    //Filter of exact food / Фильтры по опр. еде
+    //Filter of exact food 
     const filterBurger = () => filterType('burger')
     const filterPizza = () => filterType('pizza')
     const filterSalad = () => filterType('salad')
     const filterChicken = () => filterType('chicken')
 
-    //Filter of exact price / Фильтр по опр. цене
+    //Filter of exact price 
     const filterPriceOneDollar = () => filterPrice('$')
     const filterPriceTwoDollars = () => filterPrice('$$')
     const filterPriceThreeDollars = () => filterPrice('$$$')
