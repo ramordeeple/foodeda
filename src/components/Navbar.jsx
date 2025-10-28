@@ -27,7 +27,7 @@ export default function Navbar() {
 
     <div className='hidden lg:flex items-center '>
         <p className='bg-[#b91c1c] p-1 px-2 py-2 text-white rounded-full cursor-pointer m-1 hover:bg-[#B00000]'><a href='https://www.youtube.com/watch?v=u3TjWRmVMQE'> <AiFillYoutube size={20} /> </a></p>
-        <p className='bg-[#6e5494] p-1 px-2 py-2 text-white rounded-full cursor-pointer m-1 hover:bg-violet-800'><a href='https://github.com/borzyvasya'><AiFillGithub size={20} /> </a></p>
+        <p className='bg-[#6e5494] p-1 px-2 py-2 text-white rounded-full cursor-pointer m-1 hover:bg-violet-800'><a href='https://github.com/ramordeeple'><AiFillGithub size={20} /> </a></p>
     </div>
 
     {/* {Search} */}
