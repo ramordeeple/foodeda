@@ -5,18 +5,16 @@ import HeadlineCards from './components/HeadlineCards';
 import Food from './components/Food';
 import Category from './components/Category';
 
-
-
-function App() {
-  return (
-    <div>
-      <Navbar />
-      <Hero />
-      <HeadlineCards />
-      <Food />
-      <Category />
-    </div>
-  );
-}
+const App: React.FC = () => {
+    return (
+        <div>
+            <Navbar />
+            <Hero />
+            <HeadlineCards />
+            <Food />
+            <Category />
+        </div>
+    );
+};
 
 export default App;

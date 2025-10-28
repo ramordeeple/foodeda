@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {data} from '../data/data.js'
+import {data} from '../data/data'
 
 
 
@@ -13,7 +13,7 @@ export default function Food() {
 
 
     //Filter foods
-    const filterType = (category) => {
+    const filterType = (category: string) => {
         setFoods(data.filter ((item) => {
             return item.category === category
         }) )
@@ -21,7 +21,7 @@ export default function Food() {
 
     
     //Filter price 
-    const filterPrice = (price) => {
+    const filterPrice = (price: string) => {
         setFoods(data.filter ((item) => {
             return item.price === price
         }) ) 
