@@ -12,7 +12,7 @@
 ### Установка зависимостей
 
 ```bash
-npm install
+npm install --legacy-peer-deps
 ```
 
 ### Запуск проекта
